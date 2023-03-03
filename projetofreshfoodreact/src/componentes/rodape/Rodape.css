@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ 
+.container_rodape{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px #00000030;
+    align-items: center;
+}
+
+.logo_rodape{
+    text-align: center;
+    transform: scale(0.5);
+}
+
+.texto{
+    color: #0D5C2A;
+    margin-bottom: auto;
+}
+
+.titulo{
+    font-weight: 700;
+    text-align: center;
+}
+
+.linha{
+    border-color: #0D5C2A;
+    margin:30px auto;
+    width: 60%;
+}
+
+.descricao-rodape{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    font-size: 17px;
+}
+
+.container_icone-redes-sociais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin: 50px 0;
+}
+
+.fa-brands{
+    transition: all 0.5s;
+    color: #0D5C2A;
+    transform: scale(2.2);
+    padding: 5px;
+}   
+
+.fa-brands:hover{
+    transform: scale(2.7);
+}
+.fa-brands:active{
+    background: #0d5c2a41;
+    border-radius: 10px;
+}
+
+@media(max-width:425px){
+    .logo_rodape{
+        transform: scale(0.4);
+    }
+
+    .titulo{
+        font-size: 21px;
+    }
+
+    .container_icone-redes-sociais{
+        width: 60%;
+    }
+}
+
+
+ 

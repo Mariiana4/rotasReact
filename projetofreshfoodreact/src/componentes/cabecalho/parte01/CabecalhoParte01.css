@@ -1,0 +1,57 @@
+.container01{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.nav-links{
+    align-items: center;
+    display: flex;
+    margin-right: 15px;
+    width: 15%;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-left: 25px;
+    width: 130px;
+}
+
+.fa-solid{
+    padding: 10px;
+    transform: scale(1.6);
+    transition: all 0.5s;
+}
+
+.fa-solid:hover{
+    transform: scale(2);
+}
+
+/* coração */
+#coracao{
+    color: red;
+    transform: scale(1.6);
+}
+#coracao:hover{
+    transform: scale(2);
+}
+
+/* cesta */
+#cesta{
+    color: #FBA16C;
+}
+/* ícone de usuário */
+#user{
+    color: #D9D9D9;
+}
+
+.sobre-nos{
+    color: #FBA16C;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.sobre-nos:hover{
+    text-decoration: underline;
+}
