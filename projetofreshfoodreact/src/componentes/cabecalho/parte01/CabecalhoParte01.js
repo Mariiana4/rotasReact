@@ -5,7 +5,7 @@ function cabecalhoParte01() {
   return (
     <>
     {/* <div className="container01">
-      <img className="logo" src="./imagens/cabecalho/parte01/logo.svg" width="30px" alt="ilustrsção de uma maçã vermelha com duas folhas verdes no topo"/>
+      <img className="logo" src="./imagens/cabecalho/parte01/logo.svg" width="30px" alt="ilustrsção de uma maçã vermelha com duas folhas verdeggs no topo"/>
 
       <nav className="nav-links">
           <a className="sobre-nos link" href="#sobre-nos">Sobre a Fresh Food</a>
