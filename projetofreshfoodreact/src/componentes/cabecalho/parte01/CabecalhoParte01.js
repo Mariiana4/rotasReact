@@ -1,5 +1,6 @@
 import React from 'react'
 import './CabecalhoParte01.css'
+import { Link } from 'react-router-dom';
 
 function cabecalhoParte01() {
   return (
@@ -23,11 +24,11 @@ function cabecalhoParte01() {
     
             <nav class="nav-links">
       
-                <i class="fa-solid fa-heart" id='coracao'></i>
-        
+               <i class="fa-solid fa-heart" id='coracao'></i>
+               
                 <i class="fa-solid fa-basket-shopping" id='cesta'></i>
         
-                <i class="fa-solid fa-circle-user" id='user'></i>
+                <Link to="/cadastro"><i class="fa-solid fa-circle-user" id='user'></i></Link>
     
             </nav>
         </div>
